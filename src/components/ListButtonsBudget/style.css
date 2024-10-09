@@ -1,0 +1,29 @@
+.sectionselectService {
+    width: 80%;
+    color: #f8bb6f;
+}
+
+.card-selectServices {
+    display: flex;
+    gap: 10px;
+}
+
+.label-select-service{
+    display: flex;
+}
+
+.label-select-service span{
+    padding: 0 0.5rem;
+    color: orangered;
+}
+
+@media (max-width: 1200px) {
+    .card-selectServices {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+

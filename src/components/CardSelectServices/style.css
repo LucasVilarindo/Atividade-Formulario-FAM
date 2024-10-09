@@ -1,0 +1,26 @@
+.Card-services {
+    width: 115px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    color: #edece980;
+    cursor: pointer;
+}
+
+
+
+.button-service-selected {
+    background-color: #f8bb6f;
+    color: #373737;
+    font-weight: 400;
+}
+
+@media (max-width: 340px) {
+    .Card-services {
+        width: 100px;
+    }
+}
+

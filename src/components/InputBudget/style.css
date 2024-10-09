@@ -1,0 +1,49 @@
+.input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.input-form div {
+    display: flex;
+    justify-content: start;
+    width: 80%;
+}
+
+.input-form div span {
+    color: orangered;
+    font-weight: bold;
+    padding: 0 0.5rem;
+}
+
+.input-form label {
+    color: #f8bb6f;
+    font-size: 1rem;
+    display: flex;
+}
+
+.input-form input {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background: transparent;
+
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+.input-form input:focus {
+    background-color: transparent !important;
+    outline: none;
+}
+
+.input-observation {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 358px !important;
+    padding-bottom: 300px !important;
+}

@@ -1,0 +1,102 @@
+.Budget {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 56px;
+    background-color: #1e1e1e;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: #edece9;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-title-budget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.section-title-budget h2 {
+    font-size: 2.5rem;
+}
+
+.section-title-budget h3 {
+    font-size: 18px;
+}
+
+.section-title-budget h2 span {
+    color: #f8bb6f;
+}
+
+.section-title-budget h3 span {
+    color: #f8bb6f;
+}
+
+.Budget form {
+    width: 65%;
+    padding: 3rem 0;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    min-height: 65%;
+    gap: 15px;
+    justify-content: center;
+}
+
+.button-form {
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #f8bb6f;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: #202020;
+    font-weight: bold;
+}
+
+.button-form-disable {
+    background-color: #94887b !important;
+}
+
+@media (max-width: 830px) {
+    .Budget form {
+        width: 90%;
+    }
+
+    .section-title-budget h2 {
+        font-size: 32px;
+    }
+
+    .section-title-budget h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .section-title-budget h2 {
+        font-size: 28px;
+    }
+    .section-title-budget h3 {
+        font-size: 14px;
+        width: 60%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .Budget form {
+        width: 100%;
+        border-radius: 0;
+    }
+}
